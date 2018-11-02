@@ -1,0 +1,253 @@
+body
+{
+	background-color: silver;
+}
+
+.bg-white, .bg-yellow, .bg-red, .bg-blue
+{
+	height: 100%;
+	width: 100%;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+
+.nomDisplay
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 2rem;
+}
+
+.main
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 7fr;
+	justify-items: center;
+}
+
+.bg-white
+{
+	background-color: white;
+}
+.bg-yellow
+{
+	background-color: yellow;
+}
+.bg-red
+{
+	background-color: red;
+}
+.bg-blue
+{
+	background-color: blue;
+}
+.bg-purple
+{
+	background-color: purple;
+}
+.bg-green
+{
+	background-color: green;
+}
+
+.mondrianFlex
+{
+	width: 600px;
+	height: 600px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+}
+
+.line1
+{
+	display: flex;
+	height: 30%;
+	justify-content: flex-start;
+}
+
+.bloc1
+{
+	flex: 0.2;
+}
+.bloc2
+{
+	flex: 1.6;
+}
+.bloc3
+{
+	flex: 3.4;
+}
+.bloc4
+{
+	flex: 4;
+	margin-right: 7px;
+}
+
+.line2
+{
+	height: 32%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.bloc5
+{
+	flex: 0.2;
+}
+.bloc6
+{
+	flex: 1.7;
+}
+.bloc7
+{
+	flex: 3.6;
+}
+.bloc8
+{
+	flex: 1.55;
+}
+.bloc9
+{
+	flex: 2.45;
+	margin-right: 7px;
+}
+
+
+.line3
+{
+	height: 38%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.bloc10
+{
+	width: 2.1%;
+}
+
+.underLine3
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.underLine3 div
+{
+	height: 46.38%;
+}
+
+.bloc11
+{
+	width: 16.5%;
+}
+.bloc12
+{
+	width: 53%;
+}
+.bloc13
+{
+	width: 23.9%;
+	margin-right: 0px;
+}
+.bloc14
+{
+	width: 16.5%;
+}
+.bloc15
+{
+	width: 53%;
+}
+.bloc16
+{
+	width: 25.25%;
+	margin: 0;
+}
+
+
+
+/*************************************************************** GRID ***********************************************************************/
+
+.mondrianGrid
+{
+	height: 600px;
+	width: 600px;
+	display: grid;
+	grid-template-columns: 12px 95px 195px 90px 145px;
+	grid-template-rows: 2fr 2fr 1fr 1fr;
+	grid-template-areas: "white1 yellow2 red3 blue4 blue4"
+						 "white5 white6 white7 white8 red9"
+						 "white10 white11 blue12 blue12 white13"
+						 "white10 red14 yellow15 yellow15 white16";
+	grid-gap: 14px;
+	background-color: black;
+}
+
+.white1
+{
+	grid-area: white1;
+}
+.yellow2
+{
+	grid-area: yellow2;
+}
+.red3
+{
+	grid-area: red3;
+}
+.blue4
+{
+	grid-area: blue4;
+}
+.white5
+{
+	grid-area: white5;
+}
+.white6
+{
+	grid-area: white6;
+}
+.white7
+{
+	grid-area: white7;
+}
+.white8
+{
+	grid-area: white8;
+}
+.red9
+{
+	grid-area: red9;
+}
+.white10
+{
+	grid-area: white10;
+}
+.white11
+{
+	grid-area: white11;
+}
+.blue12
+{
+	grid-area: blue12;
+}
+.white13
+{
+	grid-area: white13;
+}
+.red14
+{
+	grid-area: red14;
+}
+.yellow15
+{
+	grid-area: yellow15;
+}
+.white16
+{
+	grid-area: white16;
+	width: 152px; /* 104.5% */
+}
